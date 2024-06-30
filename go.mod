@@ -1,3 +1,3 @@
-module main
+module deployapp
 
 go 1.22.0
