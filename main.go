@@ -5,7 +5,8 @@ func main() {
 }
 
 func MaxInt(a, b int) int {
-	if a >= b {
+	if a < b { // чтоб сломать тест
+		// if a >= b { // это верно
 		return a
 	}
 
