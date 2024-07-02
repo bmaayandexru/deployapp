@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	/*
 		var wg sync.WaitGroup
@@ -17,7 +15,6 @@ func main() {
 
 		wg.Wait()
 	*/
-	fmt.Println("main()")
 }
 
 func MaxInt(a, b int) int {
